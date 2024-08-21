@@ -5,11 +5,25 @@ body {
     font-family: 'Times New Roman', Times, serif;
     background-color:#F9D1B5;
     text-align: center;
-   
-
-
 
 }
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.phone{
+    width: 291px;
+    height: 743.44px;
+}
+
+.lady{
+    width: 408px;
+    height: 851.09px;
+    
+}
+
 
 .home {
     display: flex; 
