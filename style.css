@@ -52,22 +52,31 @@ body {
     
 }
 
-.phone{
+.aboutUs-container{
+    margin-top: 118px;
+    margin-left: 60px;
+    margin-right: 60px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 
+.aboutUs-container .text{
+    padding: 0px 40px;
+}
+
+.phone{
     height: 650px;
 }
 
 .lady{
-
     height: 580px;
-   
-    
 }
+
 .service-container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
 }
 
 .title{
@@ -85,7 +94,7 @@ body {
 }
 
 .big-text{
-    margin-top: 98px;
+    margin-top: 38px;
     font-family: cursive;
     font-size: 108px;
     font-weight: 600;
@@ -104,10 +113,21 @@ a{
     border: 1px solid #000;
 }
 
+.dancing-girl{
+    width: 768px;
+    height: 326px;
+}
+
 .clothing, .style, .closet {
     background-color: rgb(188, 187, 187);
     padding: 102px;
     margin: 40px;
+}
+
+.paragraph{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    padding: 12px;
 }
 
 footer{
