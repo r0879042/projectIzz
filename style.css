@@ -49,16 +49,18 @@ body {
 .container{
     display: flex;
     align-items: center;
+    
 }
 
 .phone{
-    width: 291px;
-    height: 743.44px;
+
+    height: 650px;
 }
 
 .lady{
-    width: 408px;
-    height: 851.09px;
+
+    height: 580px;
+   
     
 }
 .service-container{
@@ -73,6 +75,8 @@ body {
     font-family: cursive;
     font-size: 56px;
     font-weight: 500;
+    line-height: 0%;
+    
 }
 
 .frames{
@@ -81,6 +85,7 @@ body {
 }
 
 .big-text{
+    margin-top: 98px;
     font-family: cursive;
     font-size: 108px;
     font-weight: 600;
@@ -92,12 +97,33 @@ a{
     color: #D05A08;
     font-size: 26px;
 }
+.cta {
+    height: 50px;
+    width: 150px;
+    border-radius: 15%;
+    border: 1px solid #000;
+}
 
 .clothing, .style, .closet {
     background-color: rgb(188, 187, 187);
     padding: 102px;
     margin: 40px;
 }
+
+footer{
+    position: absolute;
+    background-color: #6C4B34;
+    color: white;
+    text-align: center;
+    padding: 12px 0px;
+    width: 100%;
+    bottom: 0;
+}
+
+.socials a{
+    padding: 0px 50px;
+}
+
 
 
 
@@ -136,6 +162,8 @@ a{
     justify-content: center;
     align-items: flex-start; 
     padding-top: 10vh;
+  width: 120px;
+    
 }
 
 
@@ -143,23 +171,4 @@ a{
     margin: 0; 
     font-size: 24px; 
 }
-
-.footer{
-    background-color: #6C4B34;
-    color: white;
-    text-align: center;
-    padding: 12px;
-    width: 100%;
-    bottom: 0;
-    margin-top: 5%;
-
-    display: flex;
-    flex-direction: row ;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    }
-    .imagee{
-        width: 10vw;
-    }
 
