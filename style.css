@@ -129,7 +129,7 @@ label {
     padding: 10px;
     color: black;
     cursor: text;
-    transition: top 0.2;
+    transition: top 0.2s;
 }
 
 input:focus~label,
